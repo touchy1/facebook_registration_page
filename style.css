@@ -1,0 +1,142 @@
+body{
+    background-color: #E9EBEE;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #3B5998;
+    height: 86px;
+    /* margin: 0; */
+}
+.nav-left{
+    width: 788px;
+    float: left;
+    clear: both;
+}
+.nav-left h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-right{
+    margin-top: 10px;
+    overflow: hidden;
+    width: 576px;
+    float: right;
+
+}
+.card {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    /* transition: 0.3s; */
+    border-radius: 5px; /* 5px rounded corners */
+    width: 161px;
+    height: 208px;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .card img {
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+  }
+  .card .conteiner h4{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      
+  }
+  a{
+      text-decoration: none;
+  }
+.card-left{
+    clear: both;
+    float: left;
+    margin-right: 13px;
+    
+}
+.card-right{
+    padding: 1px 0 1px .5px;
+    overflow: hidden;
+    
+}
+.nav-inleft{
+    width: 195px;
+    /* margin: ; */
+
+    
+    float: left;
+    /* clear: both; */
+
+}
+
+.nav-right label{
+    color: white;
+    /* padding: 10px; */
+}
+.nav-right input[type=text]{
+    margin: 5px 0;
+}
+.nav-right input[type=password]{
+    margin: 5px 0;
+}
+.nav-right input[type=submit]
+{
+    background: #4267b2;
+    /* border: 1px solid; */
+    border: none;
+    margin-left: 12px;
+    padding: 5px 5px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .2)
+}
+.nav-right p{
+    margin: 0 195px;
+    color: #9CB4D8;
+}
+.nav-right p a{
+    color: #9CB4D8;
+}
+.nav-right p a:hover{
+    text-decoration: underline;
+    color: #9CB4D8;
+}
+.container{
+    margin: 0 82px 0 182px;
+}
+.sec-right{
+    margin: -50px 0px 0 0;
+    float: left;
+    clear: both;
+}
+.sec-right h1{
+    font-size: 40px;
+    margin-bottom: 0;
+    padding: 0;
+    color: #333333;
+}
+
+.sec-right p{
+    margin: 0px 0 20px 0;
+    padding: 0;
+    font-size: 25px;
+}
+.form-right{
+    width: 45%;
+    float: right;
+}
+.form-right h1{
+    font-size: 40px;
+    margin: -12px 0 -2px 0;
+}
+.form-right p{
+    margin: 0;
+    font-size: 25px;
+}
+.form-right input[type=text],.form-right input[type=pssword]{
+    width: 185px;
+    margin: 26px 2px 12px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
